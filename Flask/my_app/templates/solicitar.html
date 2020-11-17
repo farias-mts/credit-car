@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../static/css/navbar.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/content_forms.css"/>
+</head>
+<body>
+    <div>
+        <header class='body_header'>
+            <nav class='menu'>
+                <div class='menu_logo'>
+                    <div id='photo_teste'></div>
+                    <a class='menu_icon' href='/'></a>
+                </div>
+                <ul class='menu_list'>
+                    <li class='menu_item'>
+                        <a class='menu_link' href=''>Solicitar</a>
+                    </li>
+                    <li class='menu_item'>
+                        <a class='menu_link' href='/soli.co/'>Solitações</a>
+                    </li>
+                </ul>
+                <a class='menu_credit' href='https://github.com/farias-mts'>Criado por Matheus Farias</a>
+            </nav>
+        </header>
+       <div class='content_forms'>
+           <h1 id='title'>Solicitar cartão</h1>
+            <form class='request_forms'>
+                <label>Nome</label>
+                <input text='Digite seu nome' name='name'><br/>
+                <label>Idade</label>
+                <input text='Digite sua Idade' name='year'><br/>
+                <label>CPF</label>
+                <input text='Digite seu CPF' name='cpf'><br/>
+                <label>Renda</label>
+                <input text='Digite sua renda mensal' name='income'><br/>
+                <input type=submit class="btn btn-primary" id='generate_card'>
+            </form>
+       </div>
+    </div>
+</body>
+</html>

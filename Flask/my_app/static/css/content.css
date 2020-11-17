@@ -1,0 +1,54 @@
+#header{
+    margin-top:60px;
+    margin-left:20px;
+}
+
+.header{
+    display:flex;
+}
+
+.banner{
+    margin-top:7%;
+    margin-left:auto;
+}
+
+.banner p{
+    color:#333;
+    font-size:24px;
+    font-weight: bold;
+    width:562px;
+    height:60px;
+    text-align: end;
+    margin-top:-3px;
+}
+
+.banner img{
+    border:1px solid #333;
+    width:562px;
+    height:302px;
+}
+
+#header_text{
+    margin-top:25px;
+    margin-left:60px;
+}
+
+#header_text p{
+    font-size:20px;
+    color:#333;
+    font-size:Helvetica;
+    font-style:bold;
+    font-weight:bold;
+}
+
+#my_obj{
+    color:#C3C3C3;
+    font-size:26px;
+    text-transform:uppercase;
+    font-size: 20px;
+}
+
+
+
+
+
