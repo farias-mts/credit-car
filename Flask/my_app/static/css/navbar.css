@@ -91,6 +91,10 @@ ol, ul, li{
     background-color:#fd6545;
 }
 
+#photo_teste:hover{
+    background-color:#EAEAEA;
+}
+
 .menu_credit:hover{
     color:#fd6545;
 }

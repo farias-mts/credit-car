@@ -18,9 +18,10 @@
 .request_forms input{
     width:250px ;
     height:35px;
-    margin-left:40px;
     position: relative;
     margin-top:10px;
+    display:block;
+    box-sizing:border-box;
 }
 
 #title{
@@ -30,5 +31,11 @@
 #generate_card{
     margin-top:10px;
     font-size:20px;
-    margin-left:120px;
+    margin-left:12%;
+}
+
+#delete_client{
+    margin-top:10px;
+    font-size:20px;
+    margin-left:10%;
 }

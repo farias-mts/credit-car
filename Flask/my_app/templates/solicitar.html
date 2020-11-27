@@ -12,8 +12,7 @@
         <header class='body_header'>
             <nav class='menu'>
                 <div class='menu_logo'>
-                    <div id='photo_teste'></div>
-                    <a class='menu_icon' href='/'></a>
+                    <a class='menu_icon' href='/'><div id='photo_teste'></div></a>
                 </div>
                 <ul class='menu_list'>
                     <li class='menu_item'>
@@ -22,23 +21,34 @@
                     <li class='menu_item'>
                         <a class='menu_link' href='/soli.co/'>Solitações</a>
                     </li>
+                    <li class='menu_item'>
+                        <a class='menu_link' href='/del.te/'>Excluir</a>
+                    </li>
                 </ul>
                 <a class='menu_credit' href='https://github.com/farias-mts'>Criado por Matheus Farias</a>
             </nav>
         </header>
        <div class='content_forms'>
            <h1 id='title'>Solicitar cartão</h1>
-            <form class='request_forms'>
-                <label>Nome</label>
-                <input text='Digite seu nome' name='name'><br/>
-                <label>Idade</label>
-                <input text='Digite sua Idade' name='year'><br/>
-                <label>CPF</label>
-                <input text='Digite seu CPF' name='cpf'><br/>
-                <label>Renda</label>
-                <input text='Digite sua renda mensal' name='income'><br/>
-                <input type=submit class="btn btn-primary" id='generate_card'>
-            </form>
+            <form class='request_forms' method='POST'>
+                <p>
+                    <label>Nome</label>
+                    <input text='Digite seu nome' name='name' id='name'>
+                </p>
+                <p>
+                    <label>Idade</label>
+                    <input text='Digite sua Idade' name='year'>
+                </p>
+                <p>
+                    <label>CPF</label>
+                    <input text='Digite seu CPF' name='cpf'>
+                </p>
+                <p>
+                    <label>Renda</label>
+                    <input text='Digite sua renda mensal' name='income'>
+                </p>
+                <Button type='submit' class="btn btn-primary" id='generate_card'>Gerar</Button>
+            </form>    
        </div>
     </div>
 </body>

@@ -9,11 +9,14 @@ def status_score(score, renda):
     if score<=299:
         status = 'Reprovado'
     elif score<=599:
-        status='R$1000'
-    elif score<=799 and renda>=1000:
-        status=str(renda*(50/100))
+        status='Aprovado, Limite de R$1000'
     elif score<=799:
-        status=str(renda*(200/100))
+        if renda>=1000:
+            status='Aprovado, Limite de R${:.2}'.format(str(renda*(50/100)))
+        else:
+            status='Aprovado, Limite de R$1000 apenas, sua renda é abaixo de R$1000'
+    elif score>799:
+        status='Aprovado, Limite de R${:.2}'.format(str(renda*(200/100)))
     elif renda>1000000:
-        status='Sem limite'
+        status='Aprovado, Sem limite'
     return status
